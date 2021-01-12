@@ -25,26 +25,35 @@ nav{
   width: 60%;
   transform: rotate(15deg);
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* features */
 
 #features{
-  margin: 13% 8%;
+  /* margin: 13% 8%; */
   text-align: center;
   position: relative;
-  z-index: -1;
+  z-index: 2;
+}
+
+.container-box{
+  padding: 13% 8%;
+  background-color: white;
 }
 
 #features h3{
   margin-top: 15px;
   font-family: 'Montserrat';
   font-size: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .icon{
   color: #ef8172;
+  position: relative;
+  z-index: 2;
 }
 
 /* .fas:hover {
@@ -114,5 +123,5 @@ nav{
 }
 
 .card-body button{
-  
+
 }
