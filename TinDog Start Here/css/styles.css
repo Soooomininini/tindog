@@ -5,7 +5,7 @@ body{
 /* title */
 #title{
   background-color: #ff468c;
-  padding: 3% 10%;
+  padding: 3% 10% 7%;
   color: white;
 }
 nav{
@@ -20,12 +20,18 @@ nav{
 }
 #title h1{
   font-family: 'Montserrat';
+  font-weight: 800;
 }
 .intro img{
   width: 60%;
   transform: rotate(15deg);
   position: absolute;
-  z-index: 1;
+  left: 100px;
+  /* z-index: 1; */
+}
+.intro .btn{
+  font-family: 'Montserrat';
+  font-weight: 500;
 }
 
 /* features */
@@ -34,7 +40,7 @@ nav{
   /* margin: 13% 8%; */
   text-align: center;
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .container-box{
@@ -50,11 +56,6 @@ nav{
   z-index: 2;
 }
 
-.icon{
-  color: #ef8172;
-  position: relative;
-  z-index: 2;
-}
 
 /* .fas:hover {
   color: #ff468c;
@@ -100,6 +101,7 @@ nav{
 
 .intro h2{
   font-family: 'Montserrat';
+  font-weight: 800;
   font-size: 3rem;
 }
 .intro p{
@@ -119,9 +121,46 @@ nav{
 }
 .card-text h2{
   font-family: 'Montserrat';
+  font-weight: 800;
   font-size: 3rem;
 }
 
-.card-body button{
+/* cta */
 
+#cta{
+  background-color: #ff468c;
+  text-align: center;
+  padding: 5% 10% 10%;
+}
+#cta h3{
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 2.7rem;
+  color: white;
+  padding: 2% 10%;
+}
+#cta button{
+  font-family:'Montserrat';
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 20px 12px 0px;
+  width: 13%;
+}
+
+/* footer */
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 6% 10% 3%;
+}
+#footer .icon{
+  margin: 10px;
+}
+#footer p{
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: grey;
+  padding-top: 1%;
+  padding-bottom: 3%;
 }
